@@ -3,7 +3,9 @@ import React from "react";
 // simplified css from App.css
 function Header () {
     return(
-        <h1>Employee Details!!</h1>
+        <div className="header text-light">
+         <h1>Find your Employee</h1>
+         </div>
     )
 };
 
